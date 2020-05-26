@@ -15,12 +15,11 @@ const textsbliding = new Textsbliding({
   childClass: '.textover-animation-child', // 文字的元素类名，也可以用ID
   speed: 5, // 默认规定时间移动5px
   time: 100, // 默认 100ms移动一次
-  direction = 'landscape' // 默认横向 横向 landscape 纵向 portrait
+  direction: 'landscape' // 默认横向 横向 landscape 纵向 portrait
 })
 textsbliding.init()
 ```
 
-- 效果
-![blockchain](https://github.com/wastone/textsliding/blob/master/example/image/GIF.gif. "例子")
+- 效果可以下载包里面的example 浏览器查看
 
 
