@@ -1,6 +1,6 @@
 {
   "name": "textsliding",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "当一行文字超出特定宽度时自动左右滑动",
   "main": "lib/index.js",
   "scripts": {
