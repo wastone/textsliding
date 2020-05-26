@@ -1,0 +1,24 @@
+{
+  "name": "textsliding",
+  "version": "0.0.1",
+  "description": "当一行文字超出特定宽度时自动左右滑动",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wastone/textsliding.git"
+  },
+  "keywords": [
+    "文字超出",
+    "自动",
+    "滑动"
+  ],
+  "author": "wastone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wastone/textsliding/issues"
+  },
+  "homepage": "https://github.com/wastone/textsliding#readme"
+}
