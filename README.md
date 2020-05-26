@@ -21,6 +21,6 @@ textsbliding.init()
 ```
 
 - 效果
-![blockchain](https://github.com/wastone/textsliding/blob/master/example/GIF.gif. "例子")
+![blockchain](https://github.com/wastone/textsliding/blob/master/example/image/GIF.gif. "例子")
 
 
