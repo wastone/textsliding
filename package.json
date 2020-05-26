@@ -1,24 +1,41 @@
 {
   "name": "textsliding",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "当一行文字超出特定宽度时自动左右滑动",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel -d lib/ src/",
+    "esw": "esw src/* -w",
+    "lint": "eslint src/*"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/wastone/textsliding.git"
   },
   "keywords": [
-    "文字超出",
-    "自动",
-    "滑动"
+    "textover",
+    "auto",
+    "slide",
+    "text"
   ],
   "author": "wastone",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wastone/textsliding/issues"
   },
-  "homepage": "https://github.com/wastone/textsliding#readme"
+  "homepage": "https://github.com/wastone/textsliding#readme",
+  "devDependencies": {
+    "babel": "^5.5.4",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-watch": "^4.0.2"
+  }
 }
