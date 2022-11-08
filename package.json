@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/wastone/textsliding#readme",
   "devDependencies": {
-    "babel": "^5.5.4",
+    "babel": "^6.23.0",
     "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
